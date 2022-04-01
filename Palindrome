@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  string s;
+  cin>>s;
+  string s_rev;
+  for(int i = s.size() - 1;i>=0;--i)
+  {
+      s_rev = s_rev + s[i];
+  }
+  cout<<s_rev<<endl;
+  if(s == s_rev)
+  {
+      cout<<" palindrome "<<endl;
+  }
+  else
+  {
+      cout<< " Not pallidrome "<<endl;
+  }
+
+    return 0;
+}
+ ************************************************************************************************************************************************************************
+ 
+ Palindrome 
